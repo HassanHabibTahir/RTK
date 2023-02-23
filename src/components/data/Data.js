@@ -25,13 +25,13 @@ function Data() {
   const [updatedata, updateProductData] = useUpdateProductMutation();
 
   console.log(" ~ deleteProductData:",
-  deleteProductData
+  deleteProductData.status
   );
   console.log(" ~ createProductData:",
-  createProductData
+  createProductData.status
   );
   console.log(" ~ updateProductData:",
-  updateProductData
+  updateProductData.status
   );
   
 
